@@ -14,7 +14,7 @@ for line in file:
 if (len(line)>6): 
 print(line) 
 
-new_line = input()       
+new_line = input("Enter a new name: " )       
 with open("students.txt", "a") as file:
     file.write(new_line + "\n")
  
